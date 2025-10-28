@@ -1,0 +1,48 @@
+{
+  "_name_or_path": "xlm-roberta-base",
+  "architectures": [
+    "XLMRobertaForTokenClassification"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "bos_token_id": 0,
+  "classifier_dropout": null,
+  "eos_token_id": 2,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "id2label": {
+    "0": "B-AREA",
+    "1": "B-BLOCK",
+    "2": "B-CITY",
+    "3": "B-HOUSE",
+    "4": "B-PHASE",
+    "5": "B-STREET",
+    "6": "I-HOUSE",
+    "7": "O"
+  },
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "label2id": {
+    "B-AREA": 0,
+    "B-BLOCK": 1,
+    "B-CITY": 2,
+    "B-HOUSE": 3,
+    "B-PHASE": 4,
+    "B-STREET": 5,
+    "I-HOUSE": 6,
+    "O": 7
+  },
+  "layer_norm_eps": 1e-05,
+  "max_position_embeddings": 514,
+  "model_type": "xlm-roberta",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "output_past": true,
+  "pad_token_id": 1,
+  "position_embedding_type": "absolute",
+  "torch_dtype": "float32",
+  "transformers_version": "4.40.1",
+  "type_vocab_size": 1,
+  "use_cache": true,
+  "vocab_size": 250002
+}
